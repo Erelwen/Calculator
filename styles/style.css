@@ -1,0 +1,48 @@
+html {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: bisque;
+}
+.container {
+    width: 255px;
+    position: relative;
+    background-color: rosybrown;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 5px 0.5px rgba(121, 77, 77, 0.678);
+}
+
+.display {
+    background-color: rgba(215, 241, 255, 0.904);
+    padding: 15px;
+    width: 225px;
+    text-align: right;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px 0.5px rgba(121, 121, 121, 0.801);
+}
+
+button {
+    padding: 10px;
+    width: 60px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: rebeccapurple;
+    color: wheat;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 1px 1px 0.5px rgb(121, 77, 77);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(189, 168, 247);
+    color: rgb(77, 30, 124);
+}
